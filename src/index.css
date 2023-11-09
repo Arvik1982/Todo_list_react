@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.current_task{
+  background-color: coral;
+}
+.todo_item{
+  cursor: pointer;
+  &:hover{background-color: coral;}
+}
